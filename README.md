@@ -19,3 +19,13 @@ An ideal alternative method would be to use the principles of PCA (e.g., using e
 ### Alternative to PCA: Diffusion Maps
 
 A nonlinear alternative to PCA is a Diffusion Map. This approach implements a method similar to PCA, but accounts for the underlying "shape" of the data. Diffusion maps look at the distances between points in a dataset to create a visualization of the underlying "shape", or manifold, of the data, and project the data on a new set of axes that follow along the underlying direction of the manifold. After doing so, the diffusion map can implement an approach similar to PCA, but essentially "unfolds" the underlying shape of the data and uses the eigenvectors to find the directions of maximal variance. 
+
+### Implementation 
+
+This repository contains the following files:
+
+• Data: contains the data used for the project. Two datasets were used for this project: (1) a "Swiss roll" dataset, which demosntrates an example of a dataset that would require the use of a diffusion map, and (2) a mass cytometry dataset that measures protein activity for a certain class of fibroblasts. 
+
+• ps1_functions.py: this file contains the helper functions required to implement the steps of the diffusion map
+
+• ps1.ipynb: implements the diffusion map algorithm
