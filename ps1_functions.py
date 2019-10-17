@@ -2,6 +2,7 @@
 # Skeleton file by Chris Harshaw, Yale University, Fall 2017
 # Adapted by Jay Stanley, Yale University, Fall 2018
 # Adapted by Scott Gigante, Yale University, Fall 2019
+# Skeleton code defined and created by Mark Torres, Yale University, Fall 2019
 # CPSC 553 -- Problem Set 1
 #
 # This script contains uncompleted functions for implementing diffusion maps.
