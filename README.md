@@ -26,6 +26,6 @@ This repository contains the following files:
 
 • Data: contains the data used for the project. Two datasets were used for this project: (1) a "Swiss roll" dataset, which demosntrates an example of a dataset that would require the use of a diffusion map, and (2) a mass cytometry dataset that measures protein activity for a certain class of fibroblasts. 
 
-• ps1_functions.py: this file contains the helper functions required to implement the steps of the diffusion map
+• ps1_functions.py: this file contains the helper functions required to implement the steps of the diffusion map (contains 2 pre-provided helper functions, with appropriate credit given in the .py file. The rest of the skeleton code is my own)
 
-• ps1.ipynb: implements the diffusion map algorithm
+• ps1.ipynb: implements the diffusion map algorithm (code is my own)
